@@ -31,36 +31,3 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
    git clone https://github.com/YOUR-USERNAME/y-knot-fraud-detector.git
    cd y-knot-fraud-detector
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-
-3. Place creditcard.csv in the data/ folder
-
-4. Train the model:
-```bash
-python train_model.py
-
-5. Run the web application
-```bash
-streamlit run streamlit_app.py
-
-
-Project Structure
-
-y-knot-fraud-detector/
-├── data/                    # creditcard.csv (download from Kaggle)
-├── models/                  # fraud_model.pkl and scaler.pkl
-├── images/                  # class_distribution.png
-├── train_model.py           # Model training and EDA
-├── streamlit_app.py         # Interactive Streamlit dashboard
-├── requirements.txt
-└── README.md
-
-
-
-Results
-
-Successfully handles highly imbalanced dataset
-Provides clear fraud probability for each transaction
-Ready for batch processing of new transaction files
