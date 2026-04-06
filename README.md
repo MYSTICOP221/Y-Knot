@@ -32,17 +32,17 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
    cd y-knot-fraud-detector
 
 2. Install dependencies:
-   ```bash
+```bash
 pip install -r requirements.txt
 
 3. Place creditcard.csv in the data/ folder
 
 4. Train the model:
-   ```bash
+```bash
 python train_model.py
 
 5. Run the web application
-   ```bash
+```bash
 streamlit run streamlit_app.py
 
 
