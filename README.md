@@ -22,6 +22,7 @@ This project detects fraudulent credit card transactions using machine learning.
 
 ## Dataset
 Credit Card Fraud Detection dataset from Kaggle (284,807 transactions, 492 fraud cases).
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ## How to Run Locally
 
